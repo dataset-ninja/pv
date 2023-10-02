@@ -25,3 +25,5 @@ The sizes of distributed PVs typically vary from a few panels to several hectare
 |         | PV01_Rooftop_Brick        | ∼ 0.1 m            | 213  | 256 × 256   | 138 |
 
 <i>Organizational structure of the PV dataset.</i>
+
+The PV dataset includes three groups of PV samples collected at different spatial resolutions, namely <i>PV08</i> from Gaofen-2 and Beijing-2 imagery, <i>PV03</i> from aerial photography, and <i>PV01</i> from UAV orthophotos. <i>PV08</i> contains rooftop and ground PV samples. Ground samples in <i>PV03</i> are divided into five categories according to their background land use type: shrub land, grassland, cropland, saline–alkali land, and water surface. Rooftop samples in <i>PV01</i> are divided into three categories according to their background roof type: flat concrete, steel tile, and brick.
