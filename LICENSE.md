@@ -1,0 +1,1 @@
+Multi-resolution dataset for photovoltaic panel segmentation from satellite and aerial imagery is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
