@@ -22,9 +22,13 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
-    Industry.UrbanPlanning(is_used=False)
+    Industry.UrbanPlanning(is_used=True),
+    Industry.Energy(is_used=True),
+    Industry.Environmental(is_used=True),
+    Industry.UrbanPlanning(is_used=True),
+
 ]
-CATEGORY: Category = Category.EnergyAndUtilities(extra=Category.Aerial())
+CATEGORY: Category = Category.EnergyAndUtilities(extra=[Category.Aerial(), Category.Entertainment(), Category.Surveillance()])
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
@@ -83,7 +87,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 ]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"__POSTTEXT__":"The dataset contatins dataset (***PV01***, ***PV02***, ***PV03***) and ***category*** tags"}
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"__POSTTEXT__":"The dataset contatins dataset (***PV01***, ***PV08***, ***PV03***) and ***category*** tags"}
 TAGS: Optional[List[str]] = None
 
 

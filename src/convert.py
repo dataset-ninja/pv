@@ -69,7 +69,7 @@ def count_files(path, extension):
 def convert_and_upload_supervisely_project(
     api: sly.Api, workspace_id: int, project_name: str
 ) -> sly.ProjectInfo:
-    dataset_path = "/home/alex/DATASETS/TODO/photovoltaic panel segmentation/archive"
+    dataset_path = "photovoltaic panel segmentation"
     ds_name = "ds"
     batch_size = 30
     masks_suffix = "_label.bmp"
