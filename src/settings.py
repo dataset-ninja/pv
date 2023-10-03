@@ -26,9 +26,8 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.Energy(is_used=True),
     Industry.Environmental(is_used=True),
     Industry.UrbanPlanning(is_used=True),
-
 ]
-CATEGORY: Category = Category.EnergyAndUtilities(extra=[Category.Aerial(), Category.Entertainment(), Category.Surveillance()])
+CATEGORY: Category = Category.EnergyAndUtilities(extra=[Category.Aerial(), Category.Entertainment(), Category.Surveillance(),Category.Drones()])
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
