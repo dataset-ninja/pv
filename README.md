@@ -1,3 +1,3 @@
-# Multi-resolution dataset for photovoltaic panel segmentation from satellite and aerial imagery
+# Multi-resolution Dataset for Photovoltaic Panel Segmentation From Satellite and Aerial Imagery
 
 PV is a dataset for semantic segmentation task.

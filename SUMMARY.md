@@ -1,4 +1,4 @@
-**Multi-resolution dataset for photovoltaic panel segmentation from satellite and aerial imagery** is a dataset for a semantic segmentation task. It is used in the urban planning, energy, environmental, and urban planning industries. 
+**Multi-resolution Dataset for Photovoltaic Panel Segmentation From Satellite and Aerial Imagery** is a dataset for a semantic segmentation task. It is used in the urban planning, energy, environmental, and urban planning industries. 
 
 The dataset consists of 3716 images with 3713 labeled objects belonging to 1 single class (*photovoltaic_panel*).
 
