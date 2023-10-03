@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "PV"
 PROJECT_NAME_FULL: str = "Multi-resolution Dataset for Photovoltaic Panel Segmentation From Satellite and Aerial Imagery"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
