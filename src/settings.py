@@ -14,7 +14,7 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "PV"
-PROJECT_NAME_FULL: str = "Multi-resolution Dataset for Photovoltaic Panel Segmentation From Satellite and Aerial Imagery"
+PROJECT_NAME_FULL: str = "PV: Multi-resolution Dataset for Photovoltaic Panel Segmentation From Satellite and Aerial Imagery"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
@@ -27,7 +27,7 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.Environmental(is_used=True),
     Industry.UrbanPlanning(is_used=True),
 ]
-CATEGORY: Category = Category.EnergyAndUtilities(extra=[Category.Aerial(), Category.Entertainment(), Category.Surveillance(),Category.Drones()])
+CATEGORY: Category = Category.EnergyAndUtilities(extra=[Category.Aerial(), Category.Environmental(), Category.Satellite()])
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
@@ -72,6 +72,8 @@ AUTHORS: Optional[List[str]] = [
     "Yujun Liu",
     "Chenghu Zhou",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["yaoling@lreis.ac.cn"]
+
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "Chinese Academy of Sciences",
@@ -81,6 +83,7 @@ ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
 ]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
     "https://english.cas.cn/",
+    "https://hkb.ust.hk/homepage",
     "http://njnu.admissions.cn/",
     "https://njunju.nju.edu.cn/EN/96/f5/c7666a169717/page.htm",
 ]
@@ -138,6 +141,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS    
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
