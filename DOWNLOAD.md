@@ -1,6 +1,6 @@
 Dataset **PV** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/o/M/iG/UG1cNN0qpiEREfCWDfeUFUTLZIZrhnowclhQTC9CsvvoBjiwzs5t2Ip3CfroRV4pOY0G7QTrGbYI8f7vbvp5ha0mA6qGeUIOPIBOmybXBw7trPK16q114ZNeYhvK.tar)
+ [Download](https://www.dropbox.com/scl/fi/p13sjaxgsu0m3gzb8iuij/pv-DatasetNinja.tar?rlkey=oftqf8sndam95b0ja0pfgo5qz&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
